@@ -10,7 +10,7 @@ function ARSecond(){
     <p>We offer a wide range of construction and building services to <br />
     meet your needs from residential homes to large commercial projects.</p>
     
-    {/* <div className="card-components">
+    <div className="card-components">
 
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
@@ -24,7 +24,7 @@ function ARSecond(){
       </Card.Body>
     </Card>
 
-    </div> */}
+    </div>
     </>)
 }
 export default ARSecond;
