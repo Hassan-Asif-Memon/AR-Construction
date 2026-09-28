@@ -12,17 +12,46 @@ function ARSecond(){
     
     <div className="card-components">
 
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '13rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Residential Construction</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Build your dream home with quality and trust.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
+
+    <Card style={{ width: '13rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Commercial Construction</Card.Title>
+        <Card.Text>
+          Modern spaces for better tomorrow.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+
+    <Card style={{ width: '13rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Renovation & Remodeling</Card.Title>
+        <Card.Text>
+          Upgrade your space with modern designs.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+
+    <Card style={{ width: '13rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Structural Work</Card.Title>
+        <Card.Text>
+          Strong foundations for a lasting future.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+
 
     </div>
     </>)
