@@ -1,4 +1,34 @@
+.container{
+  margin-inline: 7%;
+}
+.top-text{
+  text-align: left;
+}
+.top-text h6{
+  color: goldenrod;
+  margin-bottom: 0%;
+}
+.view-services{
+  display: flex;
+  justify-content: space-between;
+}
+.view-services h2{
+  font-size: 26px;
+  font-weight: bold;
+}
+.view-services p a{
+  font-size: 11px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.view-services p a:hover{
+  color: goldenrod;
+}
+.intro{
+  font-size: 12px;
+}
 .card-components{
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;  
 }
