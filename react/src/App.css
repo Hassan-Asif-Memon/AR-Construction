@@ -51,3 +51,18 @@
   font-size: 12px;
   margin-top: 0%;
 }
+.projects{
+  margin-top: 10%;
+}
+.projects h2{
+ font-size: 26px;
+  font-weight: bold;
+  text-align: left;
+  /* margin-left: 1%; */
+}
+.projects .card-components{
+  text-align: left;
+}
+.projects .card-text, .projects .card-title{
+  margin-left: 4%;
+}
