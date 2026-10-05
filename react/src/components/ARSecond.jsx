@@ -15,9 +15,9 @@ import officebuilding2 from "../assets/officebuilding2.jpg";
 import shoppingmall from '../assets/shoppingmall.jpg';
 import shoppingmall2 from '../assets/shoppingmall2.jpg';
 import shoppingmall3 from '../assets/shoppingmall3.jpg';
-
-
 import vella from "../assets/vella.jpg"
+
+
 function ARSecond() {
   return (
     <>
@@ -243,7 +243,73 @@ function ARSecond() {
 
           
         </div>
+
+        
       </div>
+      <div className="recentwork">
+          <div className="container">
+          <h6>FEATURED PROJECTS</h6>
+          <div className="featuretop">
+          <h2>Our Recent Work</h2>
+          <p>
+                <a href="">View All Projects</a>
+              </p>
+      </div>
+
+       <div className="recentcard-components">
+          <Card className="recentcard" style={{ width: "13rem" }}>
+            <Card.Img className="card-img" variant="top" src={residential2} />
+            <Card.Body>
+              <Card.Title className="recentcard-title">
+                <h5>
+                  Residential Project
+                </h5>
+              </Card.Title>
+              <Card.Text className="recentcard-text">
+                Sukkur, Sindh
+               </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card className="recentcard" style={{ width: "13rem" }}>
+            <Card.Img className="card-img" variant="top" src={commercial} />
+            <Card.Body>
+              <Card.Title className="recentcard-title">
+                <h5>Commercial Project</h5>
+              </Card.Title>
+              <Card.Text className="recentcard-text">
+                Sukkur, Sindh
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card className="recentcard" style={{ width: "13rem" }}>
+            <Card.Img className="card-img" variant="top" src={residential} />
+            <Card.Body>
+              <Card.Title className="recentcard-title">
+                <h5>Ongoing Project</h5>
+              </Card.Title>
+              <Card.Text className="recentcard-text">
+                Sukkur, Sindh
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card className="recentcard" style={{ width: "13rem" }}>
+            <Card.Img className="card-img" variant="top" src={interior2} />
+            <Card.Body>
+              <Card.Title className="recentcard-title">
+                <h5>Interior Project</h5>
+              </Card.Title>
+              <Card.Text className="recentcard-text">
+                Sukkur, Sindh
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+
+        </div>
+        </div>
     </>
   );
 }

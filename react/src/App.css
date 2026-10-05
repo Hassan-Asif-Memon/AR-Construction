@@ -66,3 +66,49 @@
 .projects .card-text, .projects .card-title{
   margin-left: 4%;
 }
+.recentwork{
+  margin-top: 8%;
+  text-align: left;
+  background-color: rgb(4, 4, 44);
+}
+.featuretop{
+  display: flex;
+  justify-content: space-between;
+}
+.recentwork h6{
+  color: goldenrod;
+  margin: 0%;
+}
+.recentwork h2{
+  margin: 0%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.recentwork p a{
+  font-size: 11px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.recentwork p a:hover{
+  color:goldenrod;
+}
+.recentcard-title{
+color: white;
+
+}
+.recentcard-text{
+color: white;
+
+}
+.recentcard-components{
+ display: flex;
+  justify-content: space-evenly;  
+  margin-top: 3%;
+  gap: 10px; 
+}
+.recentcard{
+  /* border-radius: 2%; */
+  box-shadow: 1px 5px 2px 5px #201e35;
+}
